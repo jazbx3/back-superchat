@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jazbcl/back-superchat/dist
+    - npm install
+    - npm run build
+    - /bin/cp -R dist $DEPLOYPATH

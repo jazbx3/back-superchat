@@ -92,5 +92,3 @@ CREATE TABLE messages (
     FOREIGN KEY(room_id) 
       REFERENCES rooms(id)
 );
-
-select * from pg_collection;

@@ -1,15 +1,13 @@
-import express from "express";
-import { config } from "dotenv";
-
 // Enable .env vars.
-config();
+import './env/env'
+import express from "express";
 
 const app = express();
 const port = process.env.APP_PORT ? process.env.APP_PORT : 3000;
 
 app.get("/", (req, res) => {
   res.status(200).send({
-    msg: "Works!",
+    msg: "Works!"
   });
 });
 

@@ -26,7 +26,8 @@
   "homepage": "https://github.com/jazbx3/back-superchat#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg-promise": "^10.11.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
